@@ -5,7 +5,7 @@
 
 ```javascript
 //return array of all quotes with 12 words max
-var filePath = "quotes.js";
+var filePath = "quotes.json";
 $.getJSON(filePath).done(function (data) {
 	return data.filter(function (o) {
 		return o.quoteText.split(" ").length <= 12;
@@ -13,7 +13,7 @@ $.getJSON(filePath).done(function (data) {
 });
 
 //return array of all quotes of Buddha
-var filePath = "quotes.js";
+var filePath = "quotes.json";
 	$.getJSON(filePath).done(function (data) {
 		return data.filter(function (o) {
 			return o.quoteAuthor === "Buddha";
