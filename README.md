@@ -1,5 +1,4 @@
-Database Quotes JSON, JSON file with more than 5000+ famous quotes
-Some example using jQuery on how to work on this JSON quotes file
+JSON file with more than 5000+ famous quotes. Below there are some example, using jQuery, on how to work with this file.
 
 ```javascript
 //return array of all quotes with 12 words max
